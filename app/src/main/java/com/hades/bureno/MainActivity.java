@@ -10,9 +10,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setTitle("Hello");
-
-        System.out.println("abc");
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new CalculatorFragment()).commit();
 
     }
 }
