@@ -12,5 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
         setTitle("Hello");
 
+        System.out.println("abc");
+
     }
 }
